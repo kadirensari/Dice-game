@@ -77,3 +77,50 @@ button {
 
 
 
+/* Media */
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    img {
+        height: 7.5rem;
+    }
+
+    button {
+        height: 1.75rem;
+        width: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.75rem;
+    }
+
+    img {
+        height: 7.5rem;
+    }
+
+    button {
+        height: 2rem;
+        width: 4rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
