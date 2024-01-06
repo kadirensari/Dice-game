@@ -1,8 +1,18 @@
 # Dice-game 🎲
-Simple dice rolling game prepared with HTML, CSS and JavaScript. Following tasks will be achieved in order:
+Simple dice rolling game prepared with HTML, CSS and JavaScript. 
 
-1) Prepare a game between two players and keep the count of each player's win, lose and draw stats.
-2) Add an auto-play option to the game.
-3) Add customizations to the game (such as choose background, increase player number, etc.)
+---
+
+Completed Tasks:
+- [x] Prepare a game between two players and keep the count of each player's win, lose and draw stats
+
+---
+
+ToDo:
+- [] Add an auto-play option to the game
+- [] Add customizations to the game (such as choose background, increase player number, etc.)
+- [] Add media queiries for mobile view
+
+---
 
 More tasks might be added in the future.
