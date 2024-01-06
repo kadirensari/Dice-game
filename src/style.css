@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Bungee+Spice&family=Lobster&family=Poppins&display=swap');
+
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --MAIN-BGCOLOR: #607274;
+    --TEXT-COLOR: #FAEED1;
+    --BTN-DEFAULT-BGCOLOR: #B2A59B;
+    --BTN-ACTIVE-BGCOLOR: #0f1035b0;
+}
+
+body {
+    background-color: var(--MAIN-BGCOLOR);
+    color: var(--TEXT-COLOR);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+img {
+    height: 15rem;
+}
+
+.hidden-img {
+    visibility: hidden;
+}
+
+.visible-img {
+    visibility: visible;
+}
+
+button {
+    background-color: var(--BTN-DEFAULT-BGCOLOR);
+    color: var(--TEXT-COLOR);
+    height: 2.5rem;
+    width: 5rem;
+    border: 0;
+    border-radius: 1rem;
+    margin: 2rem 1rem 10rem 0;
+    font-weight: bold;
+}
+
+.btn-std:hover {
+    cursor: pointer;
+    background-color: var(--BTN-ACTIVE-BGCOLOR);
+    transition: 0.4s;
+}
+
+.btn_active {
+    background-color: var(--BTN-ACTIVE-BGCOLOR);
+}
+
+
+
