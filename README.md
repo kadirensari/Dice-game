@@ -9,9 +9,9 @@ Completed Tasks:
 ---
 
 ToDo:
-- [] Add an auto-play option to the game
-- [] Add customizations to the game (such as choose background, increase player number, etc.)
-- [] Add media queiries for mobile view
+- [ ] Add an auto-play option to the game
+- [ ] Add customizations to the game (such as choose background, increase player number, etc.)
+- [ ] Add media queiries for mobile view
 
 ---
 
