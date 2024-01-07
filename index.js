@@ -1,7 +1,8 @@
 var player1Name, player2Name;
 var player1Win = 0, player1Lose = 0, player1Draw = 0;
 var player2Win = 0, player2Lose = 0, player2Draw = 0;
-
+var autoPlayState = false;
+var refresh;
 
 setTimeout(initializeGame, 1000);
 
@@ -37,6 +38,31 @@ document.querySelector("#roll-btn").addEventListener("click", () => {
 document.querySelector("#reset-btn").addEventListener("click", () => {
     location.reload();
 });
+
+document.querySelector("#auto-btn").addEventListener("click", () => {
+    if(!autoPlayState)
+        startAutoPlay();
+    else
+        stopAutoPlay();
+});
+
+
+function startAutoPlay()
+{
+    refresh = setInterval(play, 2000);
+    autoPlayState = true;
+    document.querySelector("#auto-btn").innerText = "Stop";
+    document.querySelector("#auto-btn").setAttribute("class", "btn_active");
+}
+
+function stopAutoPlay()
+{
+    clearInterval(refresh);
+    refresh = null;
+    autoPlayState = false;
+    document.querySelector("#auto-btn").innerText = "Autoplay";
+    document.querySelector("#auto-btn").setAttribute("class", "btn-std");
+}
 
 function play()
 {

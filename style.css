@@ -63,10 +63,10 @@ button {
     border-radius: 1rem;
     margin: 2rem 1rem 5rem 0;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .btn-std:hover {
-    cursor: pointer;
     background-color: var(--BTN-ACTIVE-BGCOLOR);
     transition: 0.4s;
 }
@@ -93,8 +93,8 @@ button {
     }
 
     button {
-        height: 1.75rem;
-        width: 3.5rem;
+        height: 2rem;
+        width: 4.5rem;
     }
 
     h2 {
@@ -117,7 +117,7 @@ button {
 
     button {
         height: 2rem;
-        width: 4rem;
+        width: 5rem;
     }
 
     h2 {
