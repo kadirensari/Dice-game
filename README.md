@@ -7,6 +7,7 @@ Simple dice rolling game prepared with HTML, CSS and JavaScript.
 - [x] Prepare a game between two players and keep the count of each player's win, lose and draw stats
 - [x] Add media queiries for mobile view
 - [x] Add an auto-play option to the game
+- [x] Change background to gradient animation
 ---
 
 🎯 ToDo:
