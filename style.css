@@ -11,13 +11,16 @@
 /* Variables */
 :root {
     --MAIN-BGCOLOR: #607274;
+    --SECONDARY-BGCOLOR: rgb(37, 37, 37);
     --TEXT-COLOR: #FAEED1;
     --BTN-DEFAULT-BGCOLOR: #B2A59B;
     --BTN-ACTIVE-BGCOLOR: #0f1035b0;
 }
 
 body {
-    background-color: var(--MAIN-BGCOLOR);
+    background: linear-gradient(-45deg, var(--MAIN-BGCOLOR), var(--SECONDARY-BGCOLOR), var(--MAIN-BGCOLOR));
+    animation: gradient 20s ease infinite;
+    background-size: 400% 400%;
     color: var(--TEXT-COLOR);
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -77,8 +80,23 @@ button {
 
 
 
-/* Media */
+/* ANIMATION */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
 
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Media */
 @media (max-width: 480px) {
     h1 {
         font-size: 1.75rem;
